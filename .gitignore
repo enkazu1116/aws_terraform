@@ -2,3 +2,21 @@
 /Doc
 /zig-out
 /study
+
+# Terraform local cache and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local terraform variable files (can contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Tool build artifacts
+tool/.zig-cache/
+tool/zig-out/
